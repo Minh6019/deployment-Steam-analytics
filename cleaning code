@@ -1,0 +1,12 @@
+class cleaning_data():
+    def __init__():
+        pass
+
+    def drop_duplicates(self,data):
+        return data.drop_duplicates()
+    
+    def remove_space(self,data):
+        return data.replace('^ | $', '', regex=True)
+    
+    def remove_empty_rows(self,data):
+        return data.dropna(how='all')
